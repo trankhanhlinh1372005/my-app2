@@ -3,12 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
-import { Ex10 } from './ex10/ex10';
+import { FormsModule } from '@angular/forms';
+
+imports: [
+  BrowserModule,
+  FormsModule,
+  AppRoutingModule
+]
+
 
 @NgModule({
   declarations: [
-    App,
-    Ex10
+    App
   ],
   imports: [
     BrowserModule,
