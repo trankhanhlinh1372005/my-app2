@@ -6,12 +6,19 @@ import { App } from './app';
 import { FormsModule } from '@angular/forms';
 import { Ex10 } from './ex10/ex10';
 import { Ex14 } from './ex14/ex14';
+import { ProductService } from './product-service';
+import { ServiceProductImageEvent } from './service-product-image-event/service-product-image-event';
+import { ServiceProductImageEventDetail } from './service-product-image-event-detail/service-product-image-event-detail';
+import { Ex13 } from './ex13/ex13';
 
 @NgModule({
   declarations: [
     App,
     Ex10,
-    Ex14
+    Ex14,
+    ServiceProductImageEvent,
+    ServiceProductImageEventDetail,
+    Ex13
   ],
   imports: [
     BrowserModule,
@@ -20,6 +27,7 @@ import { Ex14 } from './ex14/ex14';
     HttpClientModule
   ],
   providers: [
+    ProductService,
     provideBrowserGlobalErrorListeners()
   ],
   bootstrap: [App]
