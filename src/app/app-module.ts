@@ -10,6 +10,7 @@ import { ProductService } from './product-service';
 import { ServiceProductImageEvent } from './service-product-image-event/service-product-image-event';
 import { ServiceProductImageEventDetail } from './service-product-image-event-detail/service-product-image-event-detail';
 import { Ex13 } from './ex13/ex13';
+import { Ex18 } from './ex18/ex18';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Ex13 } from './ex13/ex13';
     Ex14,
     ServiceProductImageEvent,
     ServiceProductImageEventDetail,
-    Ex13
+    Ex13,
+    Ex18
   ],
   imports: [
     BrowserModule,
