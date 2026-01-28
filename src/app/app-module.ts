@@ -11,6 +11,9 @@ import { ServiceProductImageEvent } from './service-product-image-event/service-
 import { ServiceProductImageEventDetail } from './service-product-image-event-detail/service-product-image-event-detail';
 import { Ex13 } from './ex13/ex13';
 import { Ex18 } from './ex18/ex18';
+import { Product } from './product/product';
+import { ListProduct } from './list-product/list-product';
+import { ServiceProduct } from './service-product/service-product';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { Ex18 } from './ex18/ex18';
     ServiceProductImageEvent,
     ServiceProductImageEventDetail,
     Ex13,
-    Ex18
+    Ex18,
+    Product,
+    ListProduct,
+    ServiceProduct
   ],
   imports: [
     BrowserModule,
