@@ -15,6 +15,9 @@ import { Product } from './product/product';
 import { ListProduct } from './list-product/list-product';
 import { ServiceProduct } from './service-product/service-product';
 import { Login } from './login/login';
+import { ProductIst } from './product-ist/product-ist';
+import { ProductList } from './product-list/product-list';
+import { ShoppingCart } from './shopping-cart/shopping-cart';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { Login } from './login/login';
     Product,
     ListProduct,
     ServiceProduct,
-    Login
+    Login,
+    ProductIst,
+    ProductList,
+    ShoppingCart
   ],
   imports: [
     BrowserModule,
