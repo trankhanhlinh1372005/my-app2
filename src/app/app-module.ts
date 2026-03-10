@@ -19,6 +19,7 @@ import { ProductIst } from './product-ist/product-ist';
 import { ProductList } from './product-list/product-list';
 import { ShoppingCart } from './shopping-cart/shopping-cart';
 import { Payment } from './payment/payment';
+import { Book50 } from './book50/book50';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { Payment } from './payment/payment';
     ProductIst,
     ProductList,
     ShoppingCart,
-    Payment
+    Payment,
+    Book50
   ],
   imports: [
     BrowserModule,
