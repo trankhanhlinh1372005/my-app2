@@ -14,6 +14,7 @@ import { Ex18 } from './ex18/ex18';
 import { Product } from './product/product';
 import { ListProduct } from './list-product/list-product';
 import { ServiceProduct } from './service-product/service-product';
+import { Login } from './login/login';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ServiceProduct } from './service-product/service-product';
     Ex18,
     Product,
     ListProduct,
-    ServiceProduct
+    ServiceProduct,
+    Login
   ],
   imports: [
     BrowserModule,
