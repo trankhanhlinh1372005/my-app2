@@ -18,6 +18,7 @@ import { Login } from './login/login';
 import { ProductIst } from './product-ist/product-ist';
 import { ProductList } from './product-list/product-list';
 import { ShoppingCart } from './shopping-cart/shopping-cart';
+import { Payment } from './payment/payment';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ShoppingCart } from './shopping-cart/shopping-cart';
     Login,
     ProductIst,
     ProductList,
-    ShoppingCart
+    ShoppingCart,
+    Payment
   ],
   imports: [
     BrowserModule,
